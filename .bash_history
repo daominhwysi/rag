@@ -133,3 +133,13 @@ docker run -p 6333:6333 -v $(pwd)/qdrant_storage:/qdrant/storage qdrant/qdrant
 git init .
 git remote add origin https://github.com/daominhwysi/rag
 git add .
+git add .
+GEMINI_API_KEY=AIzaSyCGLBF_aUfgAecNm5kVg3jMyYzsvgiMJRk
+SILICONFLOW_API_KEY=sk-pnnvxapbhfrpztchndhbrhpcgyplzhjbjlajzlagbquvubuo
+git commit -m "initial commit"
+git push -u origin main
+gh auth login
+gh auth login
+gh auth login
+git push -u origin main
+git commit -m "initial commit"
