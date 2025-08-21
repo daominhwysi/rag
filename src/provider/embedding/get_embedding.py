@@ -5,9 +5,8 @@ async def get_embeddings_from_text(
     text: Union[str, List[str]],
     provider: Literal["siliconflow", "sample"]
 ):
-    # --- Validate input ---
     if isinstance(text, str):
-        texts = [text]   # bọc vào list
+        texts = [text]  
     elif isinstance(text, list):
         if not all(isinstance(t, str) for t in text):
             raise TypeError("All elements in `text` list must be str")

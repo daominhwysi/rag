@@ -143,3 +143,9 @@ gh auth login
 gh auth login
 git push -u origin main
 git commit -m "initial commit"
+git add .
+git commit -m "initial commit"
+git push -u origin main
+git remote -v
+git config --global user.name "daominhwysi"
+git config --global user.email "daominhwysi@gmail.com" 
